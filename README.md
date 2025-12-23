@@ -23,10 +23,10 @@ pip install cookiecutter
 
 ```bash
 # From GitHub
-cookiecutter gh:smartgoo/python-kaspa-starter-kit
+cookiecutter gh:smartgoo/kaspa-python-starter-kits
 
 # From local directory
-cookiecutter /path/to/python-kaspa-starter-kit
+cookiecutter /path/to/kaspa-python-starter-kits
 ```
 
 Follow the prompts to configure your project, or use `--no-input` for defaults.
