@@ -1,0 +1,6 @@
+{
+    "project_name": "Kaspa Python REST API Starter",
+    "project_slug": "kaspa_rest_api_starter",
+    "description": "Kaspa Python REST API Starter",
+    "kaspa_network": "mainnet"
+}
