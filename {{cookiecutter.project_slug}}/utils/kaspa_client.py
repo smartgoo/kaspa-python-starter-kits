@@ -59,7 +59,7 @@ class KaspaClient:
         # Create and connect RPC client
         network_id = "mainnet" if self.settings.kaspa_network == "mainnet" else "testnet-10"
         self._rpc = RpcClient(resolver=self._resolver, url=rpc_url, network_id=network_id)
-        await self._rpc.connect(timeout_duration=10_000)
+        await self._rpc.connect(strategy="fallback", timeout_duration=10_000)
 
     async def disconnect(self) -> None:
         """Disconnect from the Kaspa network."""
